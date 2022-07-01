@@ -75,7 +75,7 @@ namespace MessagePack
         /// Serializes a given value with the specified buffer writer.
         /// </summary>
         /// <param name="writer">The buffer writer to serialize with.</param>
-        /// <param name="value">The value to serialize.</param>
+        /// <param name="valueObject">The value to serialize.</param>
         /// <param name="options">The options. Use <c>null</c> to use default options.</param>
         /// <exception cref="MessagePackSerializationException">Thrown when any error occurs during serialization.</exception>
         internal static void SerializeSemiGeneric<T>(ref MessagePackWriter writer, Object valueObject, MessagePackSerializerOptions options = null)
